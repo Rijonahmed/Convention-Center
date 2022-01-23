@@ -103,11 +103,11 @@
   <main>
     <!-- our Package section start -->
     <section class="container">
-      <h2>Our Package</h2>
+      <h2 class="text-center my-5">Our Package</h2>
 
-      <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="row row-cols-1 row-cols-md-4 g-4 my-5">
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 border-0">
             <div class="card-body">
               <h2 class="card-title">$300</h2>
               <h5 class="card-title">Business fair</h5>
@@ -125,7 +125,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 border-0">
             <div class="card-body">
               <h2 class="card-title">$500</h2>
               <h5 class="card-title">Wedding basic</h5>
@@ -143,8 +143,8 @@
           </div>
         </div>
 
-        <div class="col ">
-          <div class="card h-100 rounded-3 ">
+        <div class="col bg-primary rounded-3 ">
+          <div class="card h-100 rounded-3 bg-primary text-white border-0">
             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
               Hot
               <span class="visually-hidden">unread messages</span>
@@ -161,13 +161,13 @@
               <p><i class="fas fa-check"></i> pay as plan</p>
             </div>
             <div>
-              <button class="btn btn-primary rounded-pill w-100">Choose plan</button>
+              <button class="btn bg-white rounded-pill w-100 mb-3 text-primary">Choose plan</button>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 border-0">
             <div class="card-body">
               <h2 class="card-title">$1200</h2>
               <h5 class="card-title">Corporate event</h5>
@@ -190,60 +190,86 @@
 
 
     <!-- Frequently Asked Questions section start -->
-    <section class="container">
-      <h2>Frequently Asked Questions</h2>
-      <div class="d-flex">
+    <section class="container my-5">
+      <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+      <div class="d-flex justify-content-between my-5 flex-nowrap">
         <div>
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Accordion Item #1
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <h5>What's the difference between event design and
+                    event planning?</h5>
                 </button>
               </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                  <code>.accordion-flush</code> class. This is the first item's accordion body.
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Event design and event planning work hand in hand to deliver a
+                    successful event.Events by Knight offer tailor made events. This
+                    means we incorporate both event design and event planning to
+                    create that perfect event.</p>
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
+            <div class="accordion-item border-top mb-3">
+              <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  Accordion Item #2
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h5>How early do we need to start planning an event</h5>
                 </button>
               </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                  <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this
-                  being filled with some actual content.
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
+            <div class="accordion-item border-top mb-3">
+              <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Accordion Item #3
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h5>What is your refund and cancellation policy?</h5>
                 </button>
               </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                  <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-                  happening here in terms of content, but just filling up the space to make it look, at least at first
-                  glance, a bit more representative of how this would look in a real-world application.
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-top">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h5>How do you keep budgets on track?</h5>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Review any and every expense. From day one note down exactly what you plan to spend or need to
+                    spend on your event. ...
+                    Setting goals and targets. ...
+                    Discuss your plan of action regularly.</p>
                 </div>
               </div>
             </div>
           </div>
 
         </div>
-        <div>
+        <div class="m-4">
           <img src="images/people.png" alt="">
 
         </div>
@@ -251,14 +277,42 @@
 
     </section>
 
-
-
     <!-- Frequently Asked Questions section start -->
 
 
 
   </main>
   <footer>
+
+    <div class="d-flex">
+      <div>
+        <p>© 2020 bike. All rights reserved</p>
+      </div>
+      <div>
+        <h3>Get the App</h3>
+        <div class="d-flex border rounded-3 px-3">
+          <div class="d-flex align-items-center me-2">
+            <i class="fab fa-apple fs-1"></i>
+          </div>
+          <div>
+            <small>Download on the</small>
+            <h5>App Store</h5>
+
+          </div>
+        </div>
+        <div class="d-flex border">
+          <div>
+            <img class="w-25" src="icon/play2.png" alt="">
+          </div>
+          <div>
+            <small>Download on the</small>
+            <h5>App Store</h5>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
 
   </footer>
 
