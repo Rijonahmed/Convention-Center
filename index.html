@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Green House</title>
+  <title>White House</title>
   <!-- Bootstrap style link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -51,6 +51,7 @@
 
     </section>
     <!-- navbar section end-->
+
     <!-- Carousel/ slider section start -->
     <section class="container ">
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -68,7 +69,7 @@
             <div class="carousel-caption d-md-block text-white ">
               <h4>The Perfect venue for your <br> next event</h4>
               <p>Some representative placeholder content for <br> first slide.lorem Lorem ipsum dolor sit amet.</p>
-              <button class="convention-slider-btn fw-bold">Book Now</button>
+              <button class="convention-slider-btn fw-bold"><a class="nav-link" href="#booknow">Book Now</a></button>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
@@ -77,7 +78,7 @@
               <h4>Wedding Ideas & Advice</h4>
               <p>Planning a wedding is hard work! We are to help organize every detail of your day, from the budget to
                 day-of timeline and beyond.</p>
-              <button class="convention-slider-btn fw-bold">Book Now</button>
+              <button class="convention-slider-btn fw-bold"><a href="#" class="nav-link">Book Now</a></button>
             </div>
           </div>
           <div class="carousel-item">
@@ -86,7 +87,7 @@
               <h5>Fashion & Beauty</h5>
               <p>We have the answers that will make you the best, and most appropriately, dressed guest at every wedding
                 this season</p>
-              <button class="convention-slider-btn fw-bold">Book Now</button>
+              <button class="convention-slider-btn fw-bold"><a href="#" class="nav-link">Book Now</a></button>
             </div>
           </div>
         </div>
@@ -101,10 +102,22 @@
       </div>
 
     </section>
-
     <!-- Carousel/ slider section end -->
   </header>
   <main>
+
+    <!-- Toats section start -->
+    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="icon/Vector.svg" class="rounded me-2" alt="..." />
+        <strong class="me-auto">Bootstrap</strong>
+        <small>11 mins ago</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">Hello, world! This is a toast message.</div>
+    </div>
+    <!-- Toats section end -->
+
     <!-- our Package section start -->
     <section class="container" id="package">
       <h2 class="text-center my-5">Our Package</h2>
@@ -144,7 +157,6 @@
             </div>
           </div>
         </div>
-
         <div class="col rounded-3 convention-transform shadow-lg bg-primary">
           <div class="card h-100 rounded-3 bg-primary text-white border-0">
             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill convention-badge-bg">
@@ -167,7 +179,6 @@
             </div>
           </div>
         </div>
-
         <div class="col">
           <div class="card h-100 border-0">
             <div class="card-body">
@@ -189,7 +200,6 @@
       </div>
     </section>
     <!-- our Package section end -->
-
 
     <!-- Frequently Asked Questions section start -->
     <section class="container my-5">
@@ -225,11 +235,8 @@
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  The time to plan events varies from a few weeks to years. If your event is small, you can probably put
+                  it together in a month or two.
                 </div>
               </div>
             </div>
@@ -243,11 +250,9 @@
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  Refund/cancellation policies applicable in the following conditions: a) In case, the buyer cancels the
+                  order online before the product has been shipped, the entire order amount will be refunded. ... Total
+                  order amount after deduction of shipment and handling charges will be refunded.
                 </div>
               </div>
             </div>
@@ -278,11 +283,11 @@
       </div>
 
     </section>
-
     <!-- Frequently Asked Questions section start -->
 
     <!-- extra section start -->
-    <section class="container">
+    <section class="container my-3" id="booknow">
+      <h3 class="text-center my-3">Booking your information</h3>
 
       <div class="d-flex justify-content-between convention-contact-us-bg flex-lg-nowrap flex-wrap">
         <div class="w-100 m-4">
@@ -317,7 +322,8 @@
 
 
     </section>
-    <address></address>
+    <!-- extra section end -->
+
 
 
 
