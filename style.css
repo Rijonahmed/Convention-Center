@@ -1,0 +1,28 @@
+.convention-btn-bg{
+  background-color: #0B0D17;
+}
+.convention-slider-btn{
+  color: #3F87F5;
+  background-color: white;
+  padding: 10px 22px;
+  border-radius: 7px;
+  border: 0;
+}
+.convention-scaled{
+  /* transform: scale(1.2); */
+  transform: translate(0px ,-50px);
+}
+.convention-card-btn{
+  background-color: white;
+  color: #3F87F5;
+
+}
+.convention-card-btn-pink{
+  background-color:#f496d233;
+  color: #3F87F5;
+  border: 0;
+
+}
+.convention-badge-bg{
+  background-color:#FF4E4E ;
+}
