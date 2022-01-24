@@ -8,9 +8,10 @@
   border-radius: 7px;
   border: 0;
 }
-.convention-scaled{
+.convention-transform{
   /* transform: scale(1.2); */
-  transform: translate(0px ,-50px);
+  transform: translate(0px ,-30px);
+
 }
 .convention-card-btn{
   background-color: white;
@@ -25,4 +26,10 @@
 }
 .convention-badge-bg{
   background-color:#FF4E4E ;
+}
+.convention-contact-us-bg{
+  background-image: url(images/banner-4.jpg);
+  background-size: cover;
+  background-blend-mode: lighten;
+
 }
